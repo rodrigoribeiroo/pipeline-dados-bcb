@@ -67,6 +67,25 @@ services:
       postgres:
         condition: service_healthy
 
+  dbt:
+     build:
+       context: .
+       dockerfile: Dockerfile.dbt
+     working_dir: /usr/app/dbt
+     volumes:
+       - ./dbt_project:/usr/app/dbt
+     environment:
+       DBT_PROFILES_DIR: /usr/app/dbt
+       DB_HOST: postgres
+       DB_PORT: 5432
+       DB_USER: postgres
+       DB_PASSWORD: postgres
+       DB_NAME: dados
+     depends_on:
+       postgres:
+         condition: service_healthy
+     profiles: ["manual"]
+
 volumes:
   pgdata:
   airflowdb:

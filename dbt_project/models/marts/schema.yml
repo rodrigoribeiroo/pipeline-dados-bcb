@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: mart_dolar_selic
+    columns:
+      - name: data
+        tests: [not_null, unique]

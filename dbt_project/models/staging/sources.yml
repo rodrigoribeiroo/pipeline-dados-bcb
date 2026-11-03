@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: bcb
+    schema: public
+    tables:
+      - name: cotacao_dolar
+      - name: selic_meta

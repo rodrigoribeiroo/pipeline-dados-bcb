@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_cotacao_dolar
+    columns:
+      - name: data
+        tests: [not_null, unique]
+      - name: cotacao_dolar
+        tests: [not_null]
+
+  - name: stg_selic_meta
+    columns:
+      - name: data
+        tests: [not_null, unique]
+      - name: selic_meta
+        tests: [not_null]
