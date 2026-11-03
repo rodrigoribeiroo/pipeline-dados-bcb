@@ -58,9 +58,11 @@ services:
       DB_HOST: postgres
       DB_PORT: 5432
       DB_NAME: dados
+      DBT_PROFILES_DIR: /opt/airflow/dbt_project
     volumes:
       - ./dags:/opt/airflow/dags
       - ./src:/opt/airflow/src
+      - ./dbt_project:/opt/airflow/dbt_project
     depends_on:
       airflow-db:
         condition: service_healthy
