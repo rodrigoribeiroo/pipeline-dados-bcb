@@ -77,7 +77,7 @@ As duas cargas rodam em paralelo. O `dbt_build` só executa se **ambas** termina
 **1. Clone o repositório e crie o arquivo de ambiente**
 
 ```bash
-git clone https://github.com/SEU_USUARIO/pipeline-dados-bcb.git
+git clone https://github.com/rodrigoribeiroo/pipeline-dados-bcb.git
 cd pipeline-dados-bcb
 cp .env.example .env
 ```
