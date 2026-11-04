@@ -207,8 +207,8 @@ pipeline-dados-bcb/
 
 ## Autor
 
-**Seu Nome**
+Rodrigo de Abreu Ribeiro
 Formado em Sistemas de Informação, com experiência em BI e em transição para Engenharia de Dados.
 
-- LinkedIn: [seu-perfil](https://www.linkedin.com/in/seu-perfil)
-- GitHub: [SEU_USUARIO](https://github.com/SEU_USUARIO)
+- LinkedIn: [Rodrigo Ribeiro](https://www.linkedin.com/in/rodrigo-ribeiro-a56b988a/)
+- GitHub: [rodrigoribeiroo](https://github.com/rodrigoribeiroo)
