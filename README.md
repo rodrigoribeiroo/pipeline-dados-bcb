@@ -45,7 +45,7 @@ As duas cargas rodam em paralelo. O `dbt_build` só executa se **ambas** termina
 
 | Camada | Ferramenta | Função |
 |---|---|---|
-| Linguagem | Python 3.14 | Extração, transformação e carga |
+| Linguagem | Python 3.12 | Extração, transformação e carga |
 | Bibliotecas | requests, pandas, SQLAlchemy | Consumo da API, tratamento dos tipos e acesso ao banco |
 | Banco de dados | PostgreSQL 16 | Armazenamento dos dados brutos e analíticos |
 | Orquestração | Apache Airflow 2.10 | Agendamento, retentativas e monitoramento |
